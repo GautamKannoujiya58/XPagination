@@ -1,0 +1,28 @@
+.contentTable {
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 90vw;
+  background-color: #f1f4f3;
+  border: 1px solid f1f4f3;
+  box-shadow: translate;
+}
+.contentTable thead tr {
+  background-color: #0e9c74;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+.contentTable thead tr th {
+  padding: 12px;
+  /* font-size: 0.9em; */
+}
+
+.contentTable tbody tr td {
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(240, 233, 233);
+  color: rgb(19, 18, 18);
+  font-weight: 50;
+}
